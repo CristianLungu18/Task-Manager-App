@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #416165 !important;
+}
+.box {
+  width: 900px;
+  height: 370px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #0b3948;
+  color: white;
+  box-shadow: 1px 1px 20px 10px white;
+}
+.title {
+  text-align: center;
+  margin-top: 5px;
+}
+.edit-task-box {
+  display: flex;
+  margin-top: 15px;
+}
+.text {
+  width: 200px;
+  font-size: 25px;
+}
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  width: 800px;
+  outline: none;
+  border: none;
+}
+.btn-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 25px;
+}
+.submit-btn {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #416165;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.submit-btn:hover {
+  opacity: 0.9;
+}
+.submit-btn:active {
+  opacity: 0.7;
+}
+.alert-text {
+  margin-top: 10px;
+  font-size: 20px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-check {
+  font-size: 25px;
+  margin-right: 55px;
+}
